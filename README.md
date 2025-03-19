@@ -9,11 +9,11 @@ PyGlitch is a Python library that applies glitch effects to images and creates g
 
 ## :clipboard: Table of Contents
 
-1. [Features](https://github.com/thealper2/PyGlitch?tab=readme-ov-file#dart-%C3%B6zellikler)
-2. [Installation](https://github.com/thealper2/PyGlitch?tab=readme-ov-file#hammer_and_wrench-kurulum)
-3. [Usage](https://github.com/thealper2/PyGlitch?tab=readme-ov-file#joystick-kullan%C4%B1m)
-4. [Contributing](https://github.com/thealper2/PyGlitch?tab=readme-ov-file#handshake-katk%C4%B1da-bulunma)
-5. [License](https://github.com/thealper2/PyGlitch?tab=readme-ov-file#scroll-lisans)
+1. [Features](https://github.com/thealper2/PyGlitch?tab=readme-ov-file#dart-features)
+2. [Installation](https://github.com/thealper2/PyGlitch?tab=readme-ov-file#hammer_and_wrench-installation)
+3. [Usage](https://github.com/thealper2/PyGlitch?tab=readme-ov-file#joystick-usage)
+4. [Contributing](https://github.com/thealper2/PyGlitch?tab=readme-ov-file#handshake-contributing)
+5. [License](https://github.com/thealper2/PyGlitch?tab=readme-ov-file#scroll-license)
 
 ---
 
