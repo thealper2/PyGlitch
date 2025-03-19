@@ -3,8 +3,8 @@
 PyGlitch is a Python library that applies glitch effects to images and creates glitch GIFs using these effects. This project is designed for developers who want to engage in image manipulation and create fun effects.
 
 <div style="display: flex;">
-  <img src="https://raw.githubusercontent.com/thealper2/PyGlitch/refs/heads/main/images/input.png" alt="Input Image" style="width: 50%; margin-right: 10px;">
-  <img src="https://raw.githubusercontent.com/thealper2/PyGlitch/refs/heads/main/images/output.gif" alt="Output Image" style="width: 50%;">
+  <img src="https://raw.githubusercontent.com/thealper2/PyGlitch/refs/heads/main/images/input.png" alt="Input Image" style="width: 25%;">
+  <img src="https://raw.githubusercontent.com/thealper2/PyGlitch/refs/heads/main/images/output.gif" alt="Output Image" style="width: 55%;">
 </div>
 
 ## :clipboard: Table of Contents
