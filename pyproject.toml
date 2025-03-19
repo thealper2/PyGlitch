@@ -34,9 +34,9 @@ dependencies = [
 pyglitch = "pyglitch.main:main"
 
 [project.urls]
-Homepage = "https://github.com/thealper/pyglitch"
-Repository = "https://github.com/thealper/pyglitch"
-Bug Tracker = "https://github.com/thealper/pyglitch/issues"
+Homepage = "https://github.com/thealper2/pyglitch"
+Repository = "https://github.com/thealper2/pyglitch"
+Bug Tracker = "https://github.com/thealper2/pyglitch/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]

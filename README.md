@@ -1,52 +1,57 @@
 # PyGlitch
 
-**PyGlitch**, görsellere glitch efektleri uygulayan ve bu efektlerle glitch GIF'leri oluşturan bir Python kütüphanesidir. Bu proje, görsel manipülasyon ve eğlenceli efektler oluşturmak isteyen geliştiriciler için tasarlanmıştır.
+PyGlitch is a Python library that applies glitch effects to images and creates glitch GIFs using these effects. This project is designed for developers who want to engage in image manipulation and create fun effects.
 
-## :clipboard: İçindekiler
+<div style="display: flex;">
+  <img src="https://raw.githubusercontent.com/thealper2/PyGlitch/refs/heads/main/images/input.png" alt="Input Image" style="width: 50%; margin-right: 10px;">
+  <img src="https://raw.githubusercontent.com/thealper2/PyGlitch/refs/heads/main/images/output.gif" alt="Output Image" style="width: 50%;">
+</div>
 
-1. [Özellikler](https://github.com/thealper2/PyGlitch?tab=readme-ov-file#dart-%C3%B6zellikler)
-2. [Kurulum](https://github.com/thealper2/PyGlitch?tab=readme-ov-file#hammer_and_wrench-kurulum)
-3. [Kullanım](https://github.com/thealper2/PyGlitch?tab=readme-ov-file#joystick-kullan%C4%B1m)
-4. [Katkıda Bulunma](https://github.com/thealper2/PyGlitch?tab=readme-ov-file#handshake-katk%C4%B1da-bulunma)
-5. [Lisans](https://github.com/thealper2/PyGlitch?tab=readme-ov-file#scroll-lisans)
+## :clipboard: Table of Contents
+
+1. [Features](https://github.com/thealper2/PyGlitch?tab=readme-ov-file#dart-%C3%B6zellikler)
+2. [Installation](https://github.com/thealper2/PyGlitch?tab=readme-ov-file#hammer_and_wrench-kurulum)
+3. [Usage](https://github.com/thealper2/PyGlitch?tab=readme-ov-file#joystick-kullan%C4%B1m)
+4. [Contributing](https://github.com/thealper2/PyGlitch?tab=readme-ov-file#handshake-katk%C4%B1da-bulunma)
+5. [License](https://github.com/thealper2/PyGlitch?tab=readme-ov-file#scroll-lisans)
 
 ---
 
-## :dart: Özellikler
+## :dart: Features
 
-- Görsellere rastgele glitch efektleri uygular.
-- Glitch efektlerini kullanarak animasyonlu GIF'ler oluşturur.
-- Glitch efektlerinin kalınlığı, uzunluğu, sayısı ve hızı gibi parametreler kolayca ayarlanabilir.
-- Markdown hücrelerini ve HTML çıktılarını düzgün bir şekilde işler.
+- Applies random glitch effects to images.
+- Creates animated GIFs using glitch effects.
+- Parameters such as thickness, length, number, and speed of glitch effects can be easily adjusted.
+- Properly handles Markdown cells and HTML outputs.
 
-## :hammer_and_wrench: Kurulum
+## :hammer_and_wrench: Installation
 
-Projeyi yerel makinenize klonlayın:
+Clone the project to your machine:
 
 ```bash
 git clone https://github.com/thealper2/PyGlitch.git
 cd PyGlitch
 ```
 
-Gerekli bağımlılıkları yüklemek için `pyproject.toml` dosyasını kullanın:
+Use the `pyproject.toml` file to install the necessary dependencies:
 
 ```bash
 pip install .
 ```
 
-## :joystick: Kullanım
+## :joystick: Usage
 
-### Komut Satırı Arayüzü (CLI)
+### Command Line Interface (CLI)
 
-Projeyi komut satırından çalıştırmak için:
+To run the project from the command line:
 
 ```bash
 pyglitch /path/to/input_image.png /path/to/output.gif --thickness 5 --length 50 --num_glitches 10 --num_frames 20 --speed 0.1
 ```
 
-### Python Modülü Olarak Kullanım
+### Using as a Python Module
 
-Projeyi bir Python modülü olarak da kullanabilirsiniz:
+You can also use the project as a Python module:
 
 ```python
 from pyglitch import GlitchConfig, GlitchGIFGenerator
@@ -57,26 +62,16 @@ generator = GlitchGIFGenerator("input_image.png", "output.gif", config)
 generator.create_glitch_gif()
 ```
 
-### Testler
+## :handshake: Contributing
 
-Proje, `unittest` kütüphanesi kullanılarak test edilmiştir. Testleri çalıştırmak için aşağıdaki komutu kullanın:
+If you wish to contribute, please follow these steps:
 
-```bash
-python run_tests.py
-```
+1. Fork this repository.
+2. Create a new branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push your branch (`git push origin feature/AmazingFeature`).
+5. Open a Pull Request.
 
-Bu komut, `src/tests/` dizinindeki tüm test dosyalarını çalıştırır.
+## :scroll: License
 
-## :handshake: Katkıda Bulunma
-
-Katkıda bulunmak isterseniz, lütfen aşağıdaki adımları izleyin:
-
-1. Bu depoyu forklayın.
-2. Yeni bir branch oluşturun (`git checkout -b feature/AmazingFeature`).
-3. Değişikliklerinizi commit edin (`git commit -m 'Add some AmazingFeature'`).
-4. Branch'inizi pushlayın (`git push origin feature/AmazingFeature`).
-5. Bir Pull Request açın.
-
-## :scroll: Lisans
-
-Bu proje MIT Lisansı altında lisanslanmıştır. Daha fazla bilgi için LICENSE dosyasına bakın.
+This project is licensed under the MIT License. For more information, see the LICENSE file.
